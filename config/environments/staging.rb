@@ -1,6 +1,6 @@
 MumsShop::Application.configure do
   config.middleware.use '::Rack::Auth::Basic' do |u, p|
-    [u, p] == [USER, PASSWORD]
+    [u, p] == [ENV['STAGING_USER'], ENV['STAGING_PASSWORD']]
   end
 
   # Settings specified here will take precedence over those in config/application.rb.
