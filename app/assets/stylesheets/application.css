@@ -9,8 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require foundation_and_overrides
+
  *= require_tree ./store
  *= require_tree ./admin
- *= require_tree .
  *= require cecil_and_co
+ *= require_tree .
  */

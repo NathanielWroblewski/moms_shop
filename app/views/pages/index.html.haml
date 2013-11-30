@@ -3,11 +3,8 @@
 = link_to 'Shop', spree_path
 
 = link_to 'http://www.facebook.com' do
-  = image_tag ''
-  Facebook
+  .social_overlay
+    = image_tag 'facebook-icon.png', class: 'social-icon'
 = link_to 'http://www.etsy.com' do
-  = image_tag ''
-  Etsy
-= link_to 'http://www.twitter.com' do
-  = image_tag ''
-  Twitter
+  .social_overlay
+    = image_tag 'etsy-icon.png', class: 'social-icon'

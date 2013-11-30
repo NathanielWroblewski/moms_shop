@@ -5,8 +5,4 @@
  *
 
  *= require store/spree_frontend
-
- *= require_self
- *= require_tree .
- *= require cecil_and_co
 */

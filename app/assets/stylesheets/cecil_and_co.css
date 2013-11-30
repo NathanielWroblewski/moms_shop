@@ -11,3 +11,9 @@ h1 {
   font-size: 60px;
   line-height: 60px;
 }
+
+.social-icon {
+  height: 16px;
+  width: 16px;
+  z-index: 0;
+}
