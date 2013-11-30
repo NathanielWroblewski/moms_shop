@@ -6,14 +6,8 @@ h1 {
   color: black;
 }
 
-#cecil-logo {
-  margin-top: 40px;
-  font-size: 60px;
-  line-height: 60px;
-}
-
 .social-icon {
-  height: 16px;
-  width: 16px;
+  height: 32px;
+  width: 32px;
   z-index: 0;
 }
