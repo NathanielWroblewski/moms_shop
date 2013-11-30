@@ -1,0 +1,14 @@
+html, body {
+  font-family: Georgia;
+}
+
+h1 {
+  color: black;
+}
+
+#cecil-logo {
+  margin-top: 40px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
