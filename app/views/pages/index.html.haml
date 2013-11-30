@@ -1,8 +1,35 @@
-%h1 Cecil & Co
+.container
+  %h1 Cecil & Co
 
-= link_to 'Shop', spree_path
+  = link_to 'Shop', spree_path
 
-= link_to 'http://www.facebook.com/CecilandCo ' do
-  %i.fi-social-facebook{style: 'font-size: 36px;'}
-= link_to 'http://cecilandco.blogspot.com/' do
-  %i.fi-social-blogger{style: 'font-size: 36px;'}
+  %ul{data: {'orbit' => ''}}
+    %li
+      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
+      .orbit-caption
+        Caption One
+    %li
+      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
+      .orbit-caption
+        Caption Two
+    %li
+      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
+      .orbit-caption
+        Caption Three
+
+  = link_to 'http://www.facebook.com/CecilandCo ' do
+    %i.fi-social-facebook{style: 'font-size: 36px;'}
+  = link_to 'http://cecilandco.blogspot.com/' do
+    %i.fi-social-blogger{style: 'font-size: 36px;'}
+
+- content_for :javascript do
+  :coffee
+    $(document).foundation
+      orbit:
+        animation: 'slide'
+        timer_speed: 3000
+        pause_on_hover: true
+        animation_speed: 1000
+        navigation_arrows: true
+        bullets: false
+        next_on_click: true
