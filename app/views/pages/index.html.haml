@@ -1,7 +1,9 @@
 .container
-  %h1 Cecil & Co
+  %h1#cecil-logo Cecil & Co
 
-  = link_to 'Shop', spree_path
+  %nav
+    %ul
+      %li= link_to 'Shop', spree_path
 
   %ul{data: {'orbit' => ''}}
     %li
@@ -17,10 +19,12 @@
       .orbit-caption
         Caption Three
 
-  = link_to 'http://www.facebook.com/CecilandCo ' do
-    %i.fi-social-facebook{style: 'font-size: 36px;'}
-  = link_to 'http://cecilandco.blogspot.com/' do
-    %i.fi-social-blogger{style: 'font-size: 36px;'}
+  %footer
+    .social
+      = link_to 'http://www.facebook.com/CecilandCo ' do
+        %i.fi-social-facebook{style: 'font-size: 36px;'}
+      = link_to 'http://cecilandco.blogspot.com/' do
+        %i.fi-social-blogger{style: 'font-size: 36px;'}
 
 - content_for :javascript do
   :coffee

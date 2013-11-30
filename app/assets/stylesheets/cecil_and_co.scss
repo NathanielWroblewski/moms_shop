@@ -1,0 +1,42 @@
+html, body {
+  font-family: Georgia;
+}
+
+h1 {
+  color: black;
+}
+
+#cecil-logo {
+  margin-top: 40px;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: Georgia;
+}
+
+nav {
+  margin: 20px 0;
+  padding: 7px;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  ul {
+    list-style: none;
+    display: inline-block;
+
+    li {
+      font-size: 14px;
+    }
+  }
+}
+
+footer {
+  .social {
+    i {
+      color: black;
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
