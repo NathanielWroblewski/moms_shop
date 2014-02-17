@@ -28,3 +28,175 @@ STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod)
 	                 AND a.attnum > 0 AND NOT a.attisdropped
 	               ORDER BY a.attnum
 	
+FATAL:  database "location_api_development" does not exist
+FATAL:  database "location_api_test" does not exist
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "users" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"users"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "users" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"users"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "discounts" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"discounts"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "users" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"users"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+ERROR:  relation "users" does not exist at character 315
+STATEMENT:              SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	              FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	             WHERE a.attrelid = '"users"'::regclass
+	               AND a.attnum > 0 AND NOT a.attisdropped
+	             ORDER BY a.attnum
+	
+FATAL:  database "location_api_test" does not exist
+FATAL:  database "social_media_word_cloud_development" does not exist
+FATAL:  database "social_media_word_cloud_development" does not exist
+ERROR:  relation "posts" does not exist at character 23
+STATEMENT:  SELECT "posts".* FROM "posts"
+ERROR:  database "hipscape_development" already exists
+STATEMENT:  CREATE DATABASE "hipscape_development" ENCODING = 'utf8'
+ERROR:  database "hipscape_test" already exists
+STATEMENT:  CREATE DATABASE "hipscape_test" ENCODING = 'utf8'
+ERROR:  database "hipscape_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "hipscape_test"
+ERROR:  database "hipscape_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "hipscape_test"
+ERROR:  missing FROM-clause entry for table "uid" at character 74
+STATEMENT:  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'youtube' AND "uid"."$t" = 'http://gdata.youtube.com/feeds/api/users/bwCOQKF9mTg3GAdtOum66w'  ORDER BY "users"."id" ASC LIMIT 1
+ERROR:  missing FROM-clause entry for table "uid" at character 74
+STATEMENT:  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'youtube' AND "uid"."$t" = 'http://gdata.youtube.com/feeds/api/users/bwCOQKF9mTg3GAdtOum66w'  ORDER BY "users"."id" ASC LIMIT 1
+ERROR:  missing FROM-clause entry for table "uid" at character 74
+STATEMENT:  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'youtube' AND "uid"."$t" = 'http://gdata.youtube.com/feeds/api/users/bwCOQKF9mTg3GAdtOum66w'  ORDER BY "users"."id" ASC LIMIT 1
+ERROR:  database "hipscape_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "hipscape_test"
+ERROR:  relation "instructional_videos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"instructional_videos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+ERROR:  relation "instructional_videos" does not exist at character 323
+STATEMENT:                SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+	                FROM pg_attribute a LEFT JOIN pg_attrdef d
+	                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	               WHERE a.attrelid = '"instructional_videos"'::regclass
+	                 AND a.attnum > 0 AND NOT a.attisdropped
+	               ORDER BY a.attnum
+	
+FATAL:  terminating autovacuum process due to administrator command
+ERROR:  database "hipscape_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "hipscape_test"
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space lLOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down

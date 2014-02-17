@@ -1,30 +1,38 @@
-.container
-  %h1#cecil-logo Cecil & Co
-
-  %nav
-    %ul
-      %li= link_to 'Shop', spree_path
-
-  %ul{data: {'orbit' => ''}}
-    %li
-      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
-      .orbit-caption
-        Caption One
-    %li
-      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
-      .orbit-caption
-        Caption Two
-    %li
-      =image_tag 'sample_bag.jpg', style: 'width: 970px; height: 400px;'
-      .orbit-caption
-        Caption Three
-
-  %footer
-    .social
-      = link_to 'http://www.facebook.com/CecilandCo ' do
-        %i.fi-social-facebook{style: 'font-size: 36px;'}
-      = link_to 'http://cecilandco.blogspot.com/' do
-        %i.fi-social-blogger{style: 'font-size: 36px;'}
+.row
+  .small-12.columns
+    %h1#cecil-logo Cecil & Co
+    %nav
+      %ul
+        %li= link_to 'Shop', spree_path
+    %ul.hide-for-small{data: {'orbit' => ''}}
+      %li
+        =image_tag 'LandingCarosel1.png', style: 'width: 970px; height: 400px;'
+        .orbit-caption
+          Handcrafted in the US
+      %li
+        =image_tag 'LandingCarosel2.png', style: 'width: 970px; height: 400px;'
+        .orbit-caption
+          Handcrafted in the US
+      %li
+        =image_tag 'LandingCarosel3.png', style: 'width: 970px; height: 400px;'
+        .orbit-caption
+          Handcrafted in the US
+    %br
+    %br
+    .small-4.columns
+      = image_tag 'fpleft.png'
+    .small-4.columns
+      = image_tag 'fpcenter.png'
+    .small-4.columns
+      = image_tag 'finalfp2.jpg'
+    %br
+    %br
+    %footer
+      .social
+        = link_to 'http://www.facebook.com/CecilandCo ' do
+          %i.fi-social-facebook{style: 'font-size: 36px;'}
+        = link_to 'http://cecilandco.blogspot.com/' do
+          %i.fi-social-blogger{style: 'font-size: 36px;'}
 
 - content_for :javascript do
   :coffee
