@@ -1,29 +1,26 @@
 .row
-  .small-12.columns
+  .small-12.columns.hide-for-small
     %h1#cecil-logo Cecil & Co
+  .small-12.columns.show-for-small.center
+    %h1#cecil-logo Cecil & Co
+  .small-12.columns
     %nav
       %ul
         %li= link_to 'Shop', spree_path
-    %ul.hide-for-small{data: {'orbit' => ''}}
+    %ul{data: {'orbit' => ''}}
       %li
-        =image_tag 'LandingCarosel1.png', style: 'width: 970px; height: 400px;'
-        .orbit-caption
-          Handcrafted in the US
+        =image_tag 'LandingCarosel1.png'
       %li
-        =image_tag 'LandingCarosel2.png', style: 'width: 970px; height: 400px;'
-        .orbit-caption
-          Handcrafted in the US
+        =image_tag 'LandingCarosel2.png'
       %li
-        =image_tag 'LandingCarosel3.png', style: 'width: 970px; height: 400px;'
-        .orbit-caption
-          Handcrafted in the US
+        =image_tag 'LandingCarosel3.png'
     %br
     %br
-    .small-4.columns
+    .small-12.medium-4.columns
       = image_tag 'fpleft.png'
-    .small-4.columns
+    .small-12.medium-4.columns
       = image_tag 'fpcenter.png'
-    .small-4.columns
+    .small-12.medium-4.columns
       = image_tag 'finalfp2.jpg'
     %br
     %br
@@ -40,7 +37,7 @@
       orbit:
         animation: 'slide'
         timer_speed: 3000
-        pause_on_hover: true
+        pause_on_hover: false
         animation_speed: 1000
         navigation_arrows: true
         bullets: false
