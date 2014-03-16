@@ -200,3 +200,9 @@ LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No spac
 LOG:  received smart shutdown request
 LOG:  shutting down
 LOG:  database system is shut down
+LOG:  database system was interrupted; last known up at 2014-03-02 21:31:39 PST
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/2BF3C70
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
