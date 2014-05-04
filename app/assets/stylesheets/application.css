@@ -15,4 +15,5 @@
  *= require_tree ./admin
  *= require cecil_and_co
  *= require_tree .
+ *= require cecil_and_co_store
  */

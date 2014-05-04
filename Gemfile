@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.1'
 
-ruby '2.0.0'
+ruby '2.1.1'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'figaro'
