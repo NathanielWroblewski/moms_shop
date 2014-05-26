@@ -206,3 +206,6 @@ LOG:  record with zero length at 0/2BF3C70
 LOG:  redo is not required
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  database system was shut down at 2014-05-24 04:04:30 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started

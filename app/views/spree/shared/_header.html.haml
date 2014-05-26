@@ -1,6 +1,5 @@
 %header#header.row{ data: {'hook' => ''}}
   %figure#logo.columns.six{ data: {'hook' => ''}}
-    %h1#cecil-logo
-      Cecil & Co
+    %img{src: "#{ENV['CDN_URL']}webheader.jpg"}
   = render :partial => 'spree/shared/nav_bar'
   = render :partial => 'spree/shared/main_nav_bar' if store_menu?
